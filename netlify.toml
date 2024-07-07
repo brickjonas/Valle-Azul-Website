@@ -1,2 +1,11 @@
+[build]
+  command = "npm run build"  # Replace with your build command
+  publish = "dist"           # Directory containing your built files
+
+[[headers]]
+  for = "/menu/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
 [[include]]
   path = "menu/*.json"
