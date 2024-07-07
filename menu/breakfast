@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Crete Hashbrown",
+        "value": 1,
+        "cost": "$9.15",
+        "ingredients": "Eggs, sausage, bacon, rice, chipotle ranch dressing",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "New Nebraska",
+        "value": 2,
+        "cost": "$9.15",
+        "ingredients": "Eggs, grilled steak, potatoes, cheddar cheese mix, chipotle ranch dressing",
+        "photo":"Will be added soon"
+    },
+    {
+        "name": "Steak, Cheese, and Egg",
+        "value": 3,
+        "cost": "$9.15",
+        "ingredients": "Grilled steak, cheddar cheese mix, eggs",
+        "photo":"Will be added soon"
+    },
+    {
+        "name": "Bacon and Sausage",
+        "value": 4,
+        "cost": "$9.15",
+        "ingredients": "Bacon, sausage, eggs, grilled bell peppers, cheddar cheese mix",
+        "photo":"Will be added soon"
+    },
+    {
+        "name": "Ranchero Burrito",
+        "value": 5,
+        "cost": "$9.15",
+        "ingredients": "Grilled steak, rice, eggs, pico de gallo, cheddar cheese mix",
+        "photo":"Will be added soon"
+    },
+    {
+        "name": "Arizona Burrito",
+        "value": 6,
+        "cost": "$9.15",
+        "ingredients": "Grilled steak, pico de gallo, cheddar cheese mix, chipotle ranch dressing",
+        "photo":"Will be added soon"
+    },
+    {
+        "name": "Chorizo Loco",
+        "value": 7,
+        "cost": "$9.15",
+        "ingredients": "Chorizo, eggs, ham, pico de gallo",
+        "photo":"Will be added soon"
+    },
+    {
+        "name": "Valle Azul Omelette",
+        "value": 8,
+        "cost": "$10.55",
+        "ingredients": "Your choice of protein, eggs, bell peppers, cheddar cheese mix, pico de gallo, side of rice and beans, corn or flour tortilla",
+        "photo":"Will be added soon"
+    }
+]
