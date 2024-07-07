@@ -1,0 +1,40 @@
+#menuContainer{
+    border: solid green 1px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.itemGroups{
+    margin-top: 60px;
+    border: solid red 1px;
+    text-align: center;
+}
+.itemGroups button{
+    background-color: #4156d1;
+    font-size: 20px;
+    margin: 0 30px;
+    padding: 10px 25px
+}
+
+.itemGroups button:hover{
+    background-color: #272f5c;
+    color: white;
+    cursor: pointer;
+}
+
+.menuItems{
+    border: 1px solid yellow;
+    margin-top: 20px;
+}
+.foodCards{
+    width: 97%;
+    height: 80%;
+    margin: 10px auto;
+    border: solid blue 1px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
