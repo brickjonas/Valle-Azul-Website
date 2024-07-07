@@ -1,3 +1,3 @@
 [functions]
   directory = "src"
-  included_files = ["menu/*.json"]
+  included_files = ["menu/breakfast.json"]
