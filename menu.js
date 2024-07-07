@@ -1,6 +1,6 @@
 window.onload = function() {
     function getBreakfastItems() {
-        const foodItem = '/menu/breakfast.json';
+        const foodItem = 'menu/breakfast.json';
         console.log('Fetching from:', foodItem); // Check if path is correct
         fetch(foodItem)
             .then(function(response) {
