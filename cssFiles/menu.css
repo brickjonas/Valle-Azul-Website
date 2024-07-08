@@ -1,0 +1,118 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+#mainNav {
+    top:0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    box-sizing: border-box;
+}
+
+#mainNav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-size: 30px;
+}
+
+#mainNav a:hover{
+    color: black;
+    background-color: grey;
+}
+
+#mainNav .leftSide{
+    left: 30px;
+}
+
+#mainNav .leftSide,
+#mainNav .rightSide {
+    display: flex;
+    gap: 15px;
+    padding: 0px 45px;
+
+}
+
+
+#mainNav .center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.center img {
+    margin-top: 10px;
+    max-width: 200px;
+    max-height: 130px;
+}
+
+#menuContainer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.menuDescription{
+
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+}
+
+.itemGroups{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.itemGroups button{
+    background-color: #4156d1;
+    font-size: 20px;
+    margin: 0 15px;
+    padding: 10px 0px;
+    width: 160px;
+}
+
+.itemGroups button:hover{
+    background-color: #272f5c;
+    color: white;
+    cursor: pointer;
+}
+
+.highlighted {
+    background-color: #272f5c !important;
+    color: white !important;
+}
+
+.menuItems{
+    border: 1px solid yellow;
+    height: auto;
+}
+
+.foodCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 30px;
+    margin: 50px auto;
+    width: 97%;
+    border: solid blue 1px;
+}
+
+.foodCard {
+    flex: 1 1 calc(33.33% - 20px); /*3 columns with space for gap */
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    max-width: calc(33.33% - 16px); /*ensure the max width doesn't exceed the 3-column layout */
+    border-radius: 10px;
+}
