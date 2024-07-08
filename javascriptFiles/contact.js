@@ -7,8 +7,8 @@ window.onload = function() {
             message: document.querySelector("#message").value
         };
         
-        const serviceID = "service_lbmvbdd"; // Replace with your EmailJS service ID
-        const templateID = "template_hswj025"; // Replace with your EmailJS template ID
+        const serviceID = "service_lbmvbdd";
+        const templateID = "template_hswj025";
         
         emailjs.send(serviceID, templateID, params)
             .then(function(response) {
