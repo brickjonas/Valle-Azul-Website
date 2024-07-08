@@ -17,10 +17,11 @@ window.onload = function() {
                     const foodGridBox = document.createElement("div");
                     foodGridBox.classList.add('foodCard');
                     foodGridBox.innerHTML = `
+                        <img src="/images/${jsonFile}/${item.value}.png">
                         <h2>${item.name}</h2>
                         <p>${item.cost}</p>
                         <p>${item.ingredients}</p>
-                        <p>Photo: ${item.photo}</p>
+                        
                     `;
                     foodCards.appendChild(foodGridBox);
                 });
