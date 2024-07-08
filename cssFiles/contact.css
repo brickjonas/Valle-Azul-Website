@@ -50,3 +50,20 @@ html, body{
     max-width: 200px;
     max-height: 130px;
 }
+
+.contactForm {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    max-height: 50vh;
+    max-width: 55vh;
+    border: solid 1px green;
+}
+.contactForm input, .contactForm textarea {
+    width: 400px;
+}
+
+.contactForm button{
+    height: 30px;
+    width: 70px;
+}
