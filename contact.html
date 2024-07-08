@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <title>Valle Azul Mexican Restaraunt</title>
-    <head>
-        <link rel="stylesheet" type="text/css" href="cssFiles/contact.css">
-        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-        <script src = 'javascriptFiles/contact.js'></script>
-    </head>
-    <div id = "mainNav">
-        <div class = "leftSide">
+<head>
+    <title>Valle Azul Mexican Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="cssFiles/contact.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "pN_oj826VRLkiVPss",
+      });
+   })();
+</script>    <script src="javascriptFiles/contact.js"></script>
+</head>
+<body>
+    <div id="mainNav">
+        <div class="leftSide">
             <a href="index.html">Home</a>
             <a href="menu.html">Menu</a>
         </div>
-        <div class = "center">
+        <div class="center">
             <img src="images/Valle Azul [PS].png">
         </div>
-        <div class = "rightSide">
+        <div class="rightSide">
             <a href="about.html">About Us</a>
             <a href="contact.html">Contact Us</a>
         </div>
     </div>
     <div>
-        <h1>This will be the contact us</h1>
-        <form id="contactForm">
+        <h1>Contact Us</h1>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br><br>
             
@@ -31,8 +39,7 @@
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
             
-            <input type="submit" value="Send">
-        </form>
-    
+            <button type="button" class="submitForm">Submit</button>
     </div>
+</body>
 </html>
