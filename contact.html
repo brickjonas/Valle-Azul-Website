@@ -2,8 +2,9 @@
 <html>
     <title>Valle Azul Mexican Restaraunt</title>
     <head>
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <script src = 'main.js'></script>
+        <link rel="stylesheet" type="text/css" href="cssFiles/contact.css">
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src = 'javascriptFiles/contact.js'></script>
     </head>
     <div id = "mainNav">
         <div class = "leftSide">
@@ -11,7 +12,7 @@
             <a href="menu.html">Menu</a>
         </div>
         <div class = "center">
-            <img src="images/Valle Azul TRANSPARENT.jpg">
+            <img src="images/Valle Azul [PS].png">
         </div>
         <div class = "rightSide">
             <a href="about.html">About Us</a>
@@ -20,5 +21,18 @@
     </div>
     <div>
         <h1>This will be the contact us</h1>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Send">
+        </form>
+    
     </div>
 </html>
