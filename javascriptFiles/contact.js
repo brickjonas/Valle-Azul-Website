@@ -1,19 +1,30 @@
 window.onload = function() {
 
-    (function(){
-        emailjs.init("pN_oj826VRLkiPss"); // Replace with your EmailJS public key
-    })();
-    
-    document.getElementById('contactForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-    
-        emailjs.sendForm('service_lbmvbdd', 'template_hswj025', this)
+    function sendMail() {
+        var params = {
+            name: document.querySelector("#name").value,
+            email: document.querySelector("#email").value,
+            message: document.querySelector("#message").value
+        };
+        
+        const serviceID = "service_lbmvbdd"; // Replace with your EmailJS service ID
+        const templateID = "template_hswj025"; // Replace with your EmailJS template ID
+        
+        emailjs.send(serviceID, templateID, params)
             .then(function(response) {
-                alert('Email sent successfully!');
+                console.log("Email sent:", response);
+                document.querySelector("#name").value = "";
+                document.querySelector("#email").value = "";
+                document.querySelector("#message").value = "";
+                alert("Your message was sent successfully!");
             }, function(error) {
-                alert('Failed to send email.');
-                console.log('Failed to send email', error);
+                console.error("Error sending email:", error);
+                alert("Oops! Something went wrong. Please try again later.");
             });
-    });
+    }
     
-}
+    document.querySelector('.submitForm').addEventListener('click', function(event) {
+        event.preventDefault();
+        sendMail();
+    });
+};
