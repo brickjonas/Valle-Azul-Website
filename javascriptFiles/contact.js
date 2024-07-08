@@ -9,6 +9,10 @@ window.onload = function() {
         
         const serviceID = "service_lbmvbdd";
         const templateID = "template_hswj025";
+        if(name == "" || email =="" || message ==""  ){
+            alert("Please fiil out all the entries");
+            return;
+        }
         
         emailjs.send(serviceID, templateID, params)
             .then(function(response) {
