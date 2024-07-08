@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Chimichanga Burrito",
+        "value": 1,
+        "cost": "$11.50",
+        "ingredients": "Your choice of meat, sour cream, guacamole, pico de gallo, cheddar cheese mix, side of rice and beans with cheese",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "BRC Burrito",
+        "value": 2,
+        "cost": "$8.50",
+        "ingredients": "Beans, rice, cheddar cheese mix",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Shrimp & Crab Burrito",
+        "value": 3,
+        "cost": "$9.55",
+        "ingredients": "Grilled shrimp and crab, grilled onions, bell peppers, rice, chipotle ranch dressing",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Surf & Turf Burrito",
+        "value": 4,
+        "cost": "$10.15",
+        "ingredients": "Grilled steak, grilled shrimp, grilled onions, rice, chipotle ranch dressing",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Chile Relleno Burrito",
+        "value": 5,
+        "cost": "$11.50",
+        "ingredients": "Topped with enchilada sauce, sour cream, cheddar cheese mix, side of rice and beans",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Smothered Burrito",
+        "value": 6,
+        "cost": "$11.50",
+        "ingredients": "Topped with enchilada sauce, side of rice and beans",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Fajita Burrito",
+        "value": 7,
+        "cost": "$9.55",
+        "ingredients": "Grilled steak or grilled chicken, grilled onions, bell peppers, pico de gallo, rice and beans",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "5 Piece Tacos",
+        "value": 8,
+        "cost": "$11.25",
+        "ingredients": "Your choice of meat, diced onions, chopped cilantro, side of radish and lime, topped with fried onion and serrano pepper",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "4 Rolled Tacos",
+        "value": 9,
+        "cost": "$10.50",
+        "ingredients": "Choice of shredded beef or shredded chicken, lettuce, side of rice and beans",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Individual Crunchy Taco",
+        "value": 10,
+        "cost": "$2.99",
+        "ingredients": "Choice of shredded beef or shredded chicken, topped with cheddar cheese mix and lettuce",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Individual Soft Taco",
+        "value": 11,
+        "cost": "$2.99",
+        "ingredients": "Choice of shredded beef or shredded chicken, topped with cheddar cheese mix and lettuce",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Taco Salad",
+        "value": 12,
+        "cost": "$8.00",
+        "ingredients": "Choice of shredded beef or shredded chicken, pico de gallo, guacamole, lettuce, sour cream, beans, cheddar cheese mix",
+        "photo": "Will be added soon"
+    }
+]

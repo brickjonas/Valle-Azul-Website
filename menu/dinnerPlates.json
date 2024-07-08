@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Tres Amigos Plate",
+        "value": 1,
+        "cost": "$9.15",
+        "ingredients": "Grilled steak, grilled chicken, grilled shrimp, side of rice and beans with cheese, lettuce, avocado, tomato",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Carne Asada Plate",
+        "value": 2,
+        "cost": "$13.45",
+        "ingredients": "Grilled steak, side of rice and beans with cheese, lettuce, avocado, tomato",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Pollo Asado Plate",
+        "value": 3,
+        "cost": "$12.95",
+        "ingredients": "Grilled chicken, side of rice and beans with cheese, lettuce, avocado, tomato",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Crete Fajitas Plate",
+        "value": 4,
+        "cost": "$11.35",
+        "ingredients": "Grilled steak or chicken, side of rice and beans with cheese ($2.00 add on eggs)",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Enchiladas Plate",
+        "value": 5,
+        "cost": "$10.15",
+        "ingredients": "Shredded beef or chicken, topped with cheese, sour cream, side of rice and beans with cheese, lettuce",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Steak Ranchero Plate",
+        "value": 6,
+        "cost": "$12.95",
+        "ingredients": "Grilled steak, pico de gallo, eggs, side of rice and beans with cheese",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Chiles Rellenos Plate",
+        "value": 7,
+        "cost": "$11.50",
+        "ingredients": "Topped with enchilada sauce, cheese, sour cream, side of rice and beans with cheese",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Fettuccine Alfredo Plate",
+        "value": 8,
+        "cost": "$16.65",
+        "ingredients": "Grilled chicken or garlic shrimp, alfredo sauce, parmesan cheese, topped with parsley, side of toasted bread",
+        "photo": "Will be added soon"
+    }
+    
+]

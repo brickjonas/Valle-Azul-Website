@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Kid's Cheese Quesadilla",
+        "value": 1,
+        "cost": "$7.95",
+        "ingredients": "Tortilla, cheese. Add meat for $2.00",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Papas Con Queso",
+        "value": 2,
+        "cost": "$7.95",
+        "ingredients": "Potatoes, beans, and cheddar cheese mix. Add meat for $2.00",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Nachos Con Queso",
+        "value": 3,
+        "cost": "$7.95",
+        "ingredients": "Torilla chips, cheese. Add meat for $2.00",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Cheeseburger",
+        "value": 4,
+        "cost": "$9.80",
+        "ingredients": "Hamburger bun, beef patty, cheddar cheese, lettuce, tomato",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Grilled Cheese Sandwich",
+        "value": 5,
+        "cost": "$5.25",
+        "ingredients": "Bread, cheese. Add meat for $2.00",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Chicken Tenders & Fries",
+        "value": 6,
+        "cost": "$8.85",
+        "ingredients": "Chicken tenders, fries",
+        "photo": "Will be added soon"
+    }
+]

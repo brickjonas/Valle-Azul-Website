@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Camarones Al Mojo De Ajo",
+        "value": 1,
+        "cost": "$11.35",
+        "ingredients": "Garlic shrimp, side of rice and beans with cheddar cheese mix",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Camarones Rancheros",
+        "value": 2,
+        "cost": "$11.35",
+        "ingredients": "Shrimp cooked with tomato sauce, bell peppers, onions, side of rice and beans with cheddar cheese mix",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Camarones A La Diabla",
+        "value": 3,
+        "cost": "$11.35",
+        "ingredients": "Spicy chipotle shrimp, side of rice and beans with cheddar cheese mix",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Filete De Pescado",
+        "value": 4,
+        "cost": "$10.75",
+        "ingredients": "Fish fillet, side of rice and beans with cheddar cheese mix, lettuce, lime",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Mojarra Frita",
+        "value": 5,
+        "cost": "$11.25",
+        "ingredients": "Deep fried fish, side of rice and beans with cheddar cheese mix",
+        "photo": "Will be added soon"
+    }
+]

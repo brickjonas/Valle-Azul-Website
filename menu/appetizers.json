@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Supreme Fries",
+        "value": 1,
+        "cost": "$12.50",
+        "ingredients": "Your choice of meat, fries, cheddar cheese mix, guacamole, sour cream, pico de gallo",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Supreme Nachos",
+        "value": 2,
+        "cost": "$12.50",
+        "ingredients": "Your choice of meat, tortilla chips, cheddar cheese mix, guacamole, sour cream, pico de gallo",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Adult Quesadilla",
+        "value": 3,
+        "cost": "$8.50",
+        "ingredients": "Tortilla, cheddar cheese mix. Add choice of meat for $2.00",
+        "photo": "Will be added soon"
+    },
+    {
+        "name": "Sides",
+        "value": 4,
+        "cost": "$3.85",
+        "ingredients": "Fries/Rice/Beans/Potatos Locos",
+        "photo": "Will be added soon"
+    }
+]
