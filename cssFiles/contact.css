@@ -1,0 +1,52 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+#mainNav {
+    top:0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    box-sizing: border-box;
+}
+
+#mainNav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-size: 30px;
+}
+
+#mainNav a:hover{
+    color: black;
+    background-color: grey;
+}
+
+#mainNav .leftSide{
+    left: 30px;
+}
+
+#mainNav .leftSide,
+#mainNav .rightSide {
+    display: flex;
+    gap: 15px;
+    padding: 0px 45px;
+
+}
+
+
+#mainNav .center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.center img {
+    margin-top: 10px;
+    max-width: 200px;
+    max-height: 130px;
+}
