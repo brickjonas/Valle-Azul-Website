@@ -116,3 +116,7 @@ html, body{
     max-width: calc(33.33% - 16px); /*ensure the max width doesn't exceed the 3-column layout */
     border-radius: 10px;
 }
+.foodCard img {
+    max-height: 230px;
+    max-width: 450px;
+}
